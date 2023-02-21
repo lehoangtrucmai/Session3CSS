@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bai5</title>
+</head>
+<style>
+    *{
+        padding: 0;
+        margin: 0;
+    }
+    .form{
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: rgb(201, 198, 198);
+        width: 60%;
+        height: auto;
+    }
+    #firstname{
+        width: 45%;
+        height: 5%;
+        background-color: aliceblue;
+        padding: 5px;
+        margin: 5px;
+        border: none;
+    }
+    #lastname{
+        float: right;
+        width: 45%;
+        height: 5%;
+        background-color: aliceblue;
+        padding: 5px;
+        margin: 5px;
+        border: none;
+    }
+    #youremail{
+        width: 45%;
+        height: 5%;
+        background-color: aliceblue;
+        padding: 5px;
+        margin: 5px;
+         border: none;
+
+    }
+    #yourphone{
+        float: right;
+        width: 45%;
+        height: 5%;
+        background-color: aliceblue;
+        padding: 5px;
+        margin: 5px;
+        border: none;
+        
+
+    }
+    #country{
+        width: 45%;
+        height: 5%;
+        background-color: aliceblue;
+        padding: 5px 5px;
+        border: none;
+        margin: 5px;
+       
+        
+    }
+    #course{
+        float: right;
+        width: 45%;
+        height: 5%;
+        background-color: aliceblue;
+        padding: 5px;
+        border: none;
+        margin: 5px;
+       }
+       #content{
+        margin: 5px;
+       }
+       #submit{
+        width: 70%;
+        text-align: center;
+        margin: 5px;
+        padding: 5px;
+        border: none;
+        color: white;
+        background-color: black;
+       }
+
+</style>
+<body>
+    <div class="form">
+    <form >
+        <input type="text" name="firstname" id="firstname" placeholder="Firstname">
+        <input type="text" name="lastname" id="lastname" placeholder="Lastname"> 
+        <input type="text" name="youremail" id="youremail" placeholder="Youremail">
+        <input type="text" name="yourphone" id="yourphone" placeholder="Yourphone"> 
+        <select name="country" id="country">
+            <option value="">Select Country</option>
+            <option value="VN">Viet Nam</option>
+            <option value="USA">USA</option>
+            <option value="CN">China</option>
+            <option value="TW">Tawan</option>
+            <option value="Aus">Australia</option>
+
+        </select >
+        
+        <select name="course" id="course">
+            <option value="">Select Course</option>
+            <option value="course01">Course01</option>
+            <option value="course02">Course02</option>
+            <option value="course03">Course03</option>
+            <option value="course04">Course04</option>
+            <option value="course05">Course05</option>
+
+        </select>
+        <textarea name="content" id="content" cols="100%" rows="10%">Content</textarea> <br>
+        <input type="submit" id="submit" name="Submit">
+    </form>
+</div>
+    
+</body>
+</html>
