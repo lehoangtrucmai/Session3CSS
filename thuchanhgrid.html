@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        h2{
+            text-align: center;
+            background-color: greenyellow;
+            color: white;
+        }
+        .container{
+            margin: 20px;
+            height: 100vh;
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            grid-template-rows: repeat(2, 1fr);
+           justify-content: space-evenly;
+           
+            
+        }
+        .item{
+            display: grid;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+          justify-content:  center;
+            align-items: center;
+            
+        
+        }
+       .button{
+            background-color: white;
+            border-color: greenyellow;
+            color: greenyellow;
+        
+            
+        }
+        .item .hinh{
+           display: grid;
+            width: 200px;
+            height: 300px;
+            justify-content:end;
+            align-items: center;
+         }
+         .giaca{
+            display: grid;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 10px;
+         }
+        </style>
+</head>
+
+<body>
+    <div>
+        <h2>Sản phẩm bán chạy nhất</h2>
+
+    </div>
+    <div class="container">
+        <div class="item">
+           <img class="hinh" src="hinhtraicay.jpg" >
+            <div class="giaca">
+              <p>xoài cát hòa lộc 180.000</p>
+              <input class="button" type="button" value="Thêm vào giỏ hàng">
+           </div>
+        </div>
+        
+        <div class="item">
+           <img class="hinh"  src="hinhtraicay.jpg" >
+            <div class="giaca">
+              <p>NHo Hàn Quốc 180.000</p>
+              <input class="button" type="button" value="Thêm vào giỏ hàng">
+            </div>
+        </div>
+        
+        <div class="item">
+            <img class="hinh" src="hinhtraicay.jpg" >
+            <div class="giaca">
+              <p>Kiwi 300.000</p>
+              <input class="button" type="button" value="Thêm vào giỏ hàng">
+            </div>
+        </div>
+        
+        <div class="item">
+            <img class="hinh" src="hinhtraicay.jpg" >
+            <div class="giaca">
+              <p>Roi đò An Phước 180.000</p>
+              <input class="button" type="button" value="Thêm vào giỏ hàng">
+            </div>
+        </div>
+        
+        <div class="item">
+            <img class="hinh" src="hinhtraicay.jpg" >
+            <div class="giaca">
+              <p>Đào 180.000</p>
+              <input class="button" type="button" value="Thêm vào giỏ hàng">
+            </div>
+        </div>
+       
+        <div class="item">
+            <img class="hinh" src="hinhtraicay.jpg" >
+            <div class="giaca">
+              <p>Sầu riêng  180.000</p>
+              <input class="button" type="button" value="Thêm vào giỏ hàng">
+            </div>
+        </div>
+       
+        <div class="item">
+            <img class="hinh" src="hinhtraicay.jpg" >
+            <div class="giaca">
+               <p>Măng cụt 180.000</p>
+               <input class="button" type="button" value="Thêm vào giỏ hàng">
+            </div>
+        </div>
+       
+        <div class="item">
+            <img class="hinh" src="hinhtraicay.jpg" >
+            <div class="giaca">
+              <p>Dừa 180.000</p>
+              <input class="button" type="button" value="Thêm vào giỏ hàng">
+           </div>
+        </div>
+
+
+
+    </div>
+    
+</body>
+</html>
